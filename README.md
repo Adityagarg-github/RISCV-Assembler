@@ -2,8 +2,8 @@
 The RISC-V Assembler Simulator is a versatile tool designed for both learning and experimentation with the RISC-V instruction set architecture (RV32I). It provides a platform  where users can write and execute RISC-V assembly code. Equipped with features such as loading code from files, step-by-step execution, and debugging functionalities including breakpoints, it offers a comprehensive environment for program analysis. The simulator showcases register and memory contents during execution, enhancing comprehension.
 
 # Valid Instructions
-R format: add, and, or, sll, slt, sra, srl, sub, xor, mul, div, rem
-I format: addi, andi, ori, lb, ld, lh, lw, jalr
+R format: add, and, or, sll, slt, sra, srl, sub, xor, mul, div, rem  
+I format: addi, andi, ori, lb, ld, lh, lw, jalr  
 S format: sb, sw, sd, sh
 SB format: beq, bne, bge, blt
 U format: auipc, lui
