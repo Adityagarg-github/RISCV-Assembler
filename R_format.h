@@ -174,19 +174,19 @@ public:
         func7 = 0;
     }
 
+// mul instruction
+    void mul()
+    {
+        opcode = 51;
+        func3 = 0;
+        func7 = 1;
+    }
+
     // DIv instruction
     void Div()
     {
         opcode = 51;
         func3 = 4;
-        func7 = 1;
-    }
-
-    // mul instruction
-    void mul()
-    {
-        opcode = 51;
-        func3 = 0;
         func7 = 1;
     }
 
