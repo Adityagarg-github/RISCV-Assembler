@@ -174,13 +174,6 @@ public:
         func3 = 6;
     }
 
-    // lb instruction
-    void lb()
-    {
-        opcode = 3;
-        func3 = 0;
-    }
-
     // addi instruction
     void addi()
     {
@@ -200,6 +193,13 @@ public:
     {
         opcode = 3;
         func3 = 2;
+    }
+
+// lb instruction
+    void lb()
+    {
+        opcode = 3;
+        func3 = 0;
     }
 
     // ld instruction
