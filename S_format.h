@@ -97,18 +97,18 @@ public:
         return;
     }
 
+// sw instruction
+    void sw()
+    {
+        opcode = 35;
+        func3 = 2;
+    }
+
     // sb instruction
     void sb()
     {
         opcode = 35;
         func3 = 0;
-    }
-
-    // sw instruction
-    void sw()
-    {
-        opcode = 35;
-        func3 = 2;
     }
 
     // sd instruction
