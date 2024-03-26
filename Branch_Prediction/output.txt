@@ -1,0 +1,40 @@
+				Always Taken
+Accuracy of "Always Taken" branch predictor : 50%
+PC		Target Address		Actual History		Prediction History
+2147507096	2147507140		T			T
+2147534884	2147534900		NN			TT
+2147534888	2147534868		TN			TT
+2147534896	2147507096		T			T
+
+				Always Not Taken
+Accuracy of "Always Not Taken" branch predictor : 50%
+PC		Target Address		Actual History		Prediction History
+2147507096	2147507140		T			N
+2147534884	2147534900		NN			NN
+2147534888	2147534868		TN			NN
+2147534896	2147507096		T			N
+
+				One bit predictor
+Accuracy of "One bit" branch predictor : 33.3333%
+PC		Target Address		Actual History		Prediction History
+2147507096	2147507140		T			NT
+2147534884	2147534900		NN			NNN
+2147534888	2147534868		TN			NTN
+2147534896	2147507096		T			NT
+
+				Two bit predictor
+Accuracy of "Two bit" branch predictor : 50%
+PC		Target Address		Actual History		Prediction History
+2147507096	2147507140		T			NN
+2147534884	2147534900		NN			NNN
+2147534888	2147534868		TN			NNN
+2147534896	2147507096		T			NN
+
+Total number of instructions: 18
+Total number of branch instructions: 6
+
+Accuracy of "Always Taken" branch predictor : 50%
+Accuracy of "Always Not Taken" branch predictor : 50%
+Accuracy of "One bit" branch predictor : 33.3333%
+Accuracy of "Two bit" branch predictor : 50%
+
