@@ -3,8 +3,6 @@ core   0: 0x8000c820 (0xfff5c703) lbu     a4, -1(a1)
 core   0: 0x8000c824 (0x00078863) beqz    a5, pc + 16
 core   0: 0x8000c828 (0xfee786e3) beq     a5, a4, pc - 20
 core   0: 0x8000c814 (0x00054783) lbu     a5, 0(a0)
-
-
 core   0: 0x8000c818 (0x00158593) addi    a1, a1, 1
 core   0: 0x8000c81c (0x00150513) addi    a0, a0, 1
 core   0: 0x8000c820 (0xfff5c703) lbu     a4, -1(a1)
